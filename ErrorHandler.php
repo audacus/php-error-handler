@@ -6,5 +6,5 @@ abstract class ErrorHandler {
 		static::exception(new Exception($message, $code, new ErrorException($message, $code, 0, $file, $line)));
 	}
 
-	abstract public static function exception($e);
+	abstract public static function exception(\Exception $e);
 }
