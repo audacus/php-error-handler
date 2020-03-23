@@ -1,3 +1,4 @@
 {
-    "name": "audacus/php-error-handler"
+    "name": "audacus/php-error-handler",
+    "version": "dev"
 }
