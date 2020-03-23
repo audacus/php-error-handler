@@ -1,3 +1,6 @@
 {
-    "name": "audacus/php-error-handler"
+    "name": "audacus/php-error-handler",
+    "autoload": {
+        "files": ["ErrorHandler.php"]
+    }
 }
